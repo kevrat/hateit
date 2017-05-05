@@ -1,0 +1,25 @@
+{
+  "parser": "babel-eslint",
+  "parserOptions": {
+    "allowImportExportEverywhere": true
+  },
+  "plugins": [
+    "meteor"
+  ],
+  "extends": [
+    "airbnb",
+    "plugin:meteor/recommended"
+  ],
+  "settings": {
+    "import/resolver": "meteor"
+  },
+  "rules": {
+    "linebreak-style": ["off", "windows"],
+    "indent": ["error", 4],
+    "import/no-extraneous-dependencies": 0,
+    "import/extensions": ["off", "never"],
+    "guard-for-in":1,
+    "object-curly-spacing":0,
+    "no-restricted-syntax": [1, "ForInStatement"]
+  }
+}

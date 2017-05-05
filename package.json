@@ -1,0 +1,26 @@
+{
+  "name": "hateit-app",
+  "private": true,
+  "dependencies": {
+    "babel-runtime": "^6.23.0",
+    "interactjs": "^1.2.8",
+    "meteor-node-stubs": "~0.2.4",
+    "onsenui": "^2.2.4",
+    "vue": "^2.2.6",
+    "vue-meta": "^0.5.5",
+    "vue-meteor-tracker": "^1.2.0",
+    "vue-onsenui": "^2.0.0-beta.1",
+    "vue-router": "^2.3.1",
+    "vue-supply": "^0.1.1"
+  },
+  "devDependencies": {
+    "babel-eslint": "^7.2.1",
+    "eslint": "^3.18.0",
+    "eslint-config-airbnb": "^14.1.0",
+    "eslint-import-resolver-meteor": "^0.3.4",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jsx-a11y": "^4.0.0",
+    "eslint-plugin-meteor": "^4.0.1",
+    "eslint-plugin-react": "^6.10.3"
+  }
+}

@@ -1,0 +1,5 @@
+node_modules/
+.idea/
+/development.settings.json
+/settings.json
+/settings.dev.json
